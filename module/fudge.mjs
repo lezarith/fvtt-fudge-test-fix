@@ -32,14 +32,16 @@ Hooks.once("init", function() {
   registerActorDataModels();
   registerItemDataModels();
 
-  VNActors.unregisterSheet("core", ActorFudge);
+  // FIX: Replace ActorFudge with ActorSheet (or "core.ActorSheet")
+  VNActors.unregisterSheet("core", ActorSheet);
   VNActors.registerSheet("fudge-rpg", ActorSheetFudgeCharacter, {
     types: ["character"],
     makeDefault: true,
     label: "FUDGERPG.SheetClassCharacter"
   });
   
-  VNItems.unregisterSheet("core", ItemFudge);
+  // FIX: Replace ItemFudge with ItemSheet (or "core.ItemSheet")
+  VNItems.unregisterSheet("core", ItemSheet);
   VNItems.registerSheet("fudge-rpg", ItemSheetFudge, {
     types: ["traitladder", "attributeset", "skill", "gift", "fault", "equipment"],
     makeDefault: true,
