@@ -1,3 +1,6 @@
+# Foundry-link:
+https://raw.githubusercontent.com/lezarith/fvtt-fudge-test-fix/main/system.json
+
 # fvtt-fudge
 
 This project implements a FUDGE system for Foundry Virtual Tabletop (FoundryVTT). 
