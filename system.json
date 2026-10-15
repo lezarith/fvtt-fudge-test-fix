@@ -190,5 +190,5 @@
   ],
   "url": "https://github.com/lezarith/fvtt-fudge-test-fix",
   "manifest": "https://raw.githubusercontent.com/lezarith/fvtt-fudge-test-fix/main/system.json",
-  "download": "https://raw.githubusercontent.com/lezarith/fvtt-fudge-test-fix/main/fudge-rpg.zip"
+  "download": "https://github.com/lezarith/fvtt-fudge-test-fix/releases/download/2.7.1/fudge-rpg.zip"
 }
